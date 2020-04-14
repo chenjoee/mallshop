@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef275555-1547-48c0-9055-762c6f16a597" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-framework/common-framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-framework/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-framework/src/main/java/io/github/mizhicn/common/framework/core/IntArrayValuable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-framework/src/main/java/io/github/mizhicn/common/framework/dataobject/BaseDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-framework/src/main/java/io/github/mizhicn/common/framework/dataobject/DeletableDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-framework/src/main/java/io/github/mizhicn/common/framework/validate/InEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-framework/src/main/java/io/github/mizhicn/common/framework/validate/InEnumValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-framework/src/test/java/TestStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo-dobble-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo-dobble-api/src/main/java/com/mizhi/demo/api/product/api/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo-dobble-api/src/main/java/com/mizhi/demo/api/product/bo/product/DemoProdcut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo-dobble-api/src/main/java/com/mizhi/demo/api/product/constant/ProductStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo-dobble-application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo-dobble-application/src/main/java/com/mizhi/demo/product/bo/product/DemoProdcut/app/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo-dobble-application/src/main/java/com/mizhi/demo/product/bo/product/DemoProdcut/app/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo-dobble-application/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo-dobble-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo-dobble-service/src/main/java/com/mizhi/demo/product/bo/product/DemoProdcut/ApplicationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo-dobble-service/src/main/java/com/mizhi/demo/product/bo/product/DemoProdcut/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo-dobble-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mallshop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-application/product-application.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-application/src/main/java/io/github/mizhicn/mallshop/pruduct/application/ProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-application/src/main/java/io/github/mizhicn/mallshop/pruduct/application/controller/user/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-application/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/product-service-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/ProductAttrService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/ProductBrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/ProductCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/ProductSpuCollectionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/ProductSpuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductAttrAndValuePairBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductAttrBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductAttrDetailBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductAttrDetailValueBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductAttrPageBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductAttrSimpleBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductAttrValueBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductAttrValueSimpleBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductSkuBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductSkuDetailBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductSpuBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductSpuDetailBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductSpuPageBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductAttrAddDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductAttrPageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductAttrUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductAttrValueAddDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductAttrValueUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductSkuAddOrUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductSpuAddDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductSpuPageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductSpuSearchListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductSpuUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-impl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-impl/product-service-impl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/dao/ProductAttrMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/dataobject/ProductAttrDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/service/ProductAttrServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-impl/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-impl/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-service-impl/src/main/resources/registy.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/product/product-service-impl/target/" />
+    <ignored path="$PROJECT_DIR$/product/product-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/product/product-application/target/" />
+    <ignored path="$PROJECT_DIR$/product/target/" />
+    <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/demo/demo-dobble/target/" />
+    <ignored path="$PROJECT_DIR$/demo/demo-dobble-service/target/" />
+    <ignored path="$PROJECT_DIR$/demo/demo-dobble-api/target/" />
+    <ignored path="$PROJECT_DIR$/demo/demo-dobble-application/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/common/common-framework/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shopmall" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shopmall" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shopmall" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shopmall: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shopmall" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shopmall: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="product_attr: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="172" column="68" selection-start-line="172" selection-start-column="68" selection-end-line="172" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/product-application/src/main/java/io/github/mizhicn/mallshop/pruduct/application/controller/user/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductAttrPageDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15.pom">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/product-application/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/product-service-impl/src/main/resources/config/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="914">
+              <caret line="50" column="44" selection-end-line="50" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/config/DataSourceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/product-application/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/dao/ProductAttrMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>load</find>
+      <find>spring boot starter</find>
+      <find>projectlo</find>
+      <find>javax</find>
+      <find>lom</find>
+      <find>bok</find>
+      <find>@EnableDubbo</find>
+      <find>io.github.mizhicn.mallshop.pruduct.api.ProductAttrService:1.0.0</find>
+      <find>io.github.mizhicn.mallshop.pruduct.api.ProductAttrService</find>
+      <find>antlr</find>
+      <find>ProductAttrService</find>
+      <find>203.168.8.136</find>
+      <find>mysql-connector-java.version</find>
+      <find>lombok</find>
+      <find>projectlombok</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/product/product-service-impl</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/common/common-framework/src/main/java/io/github/mizhicn/common/framework/core/IntArrayValuable.java" />
+        <option value="$PROJECT_DIR$/common/common-framework/src/main/java/io/github/mizhicn/common/framework/validate/InEnum.java" />
+        <option value="$PROJECT_DIR$/common/common-framework/src/test/java/TestStream.java" />
+        <option value="$PROJECT_DIR$/common/common-framework/src/main/java/io/github/mizhicn/common/framework/validate/InEnumValidator.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/com/github/mizhicn/mallshop/pruduct/api/bo/ProductAttrValueBO.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/com/github/mizhicn/mallshop/pruduct/api/dto/ProductAttrValueAddDTO.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/com/github/mizhicn/mallshop/pruduct/api/dto/ProductAttrValueUpdateDTO.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/ProductAttrService.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductAttrValueBO.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductAttrValueAddDTO.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductAttrValueUpdateDTO.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductSpuDetailBO.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductAttrAndValuePairBO.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/ProductSpuCollectionService.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductSpuPageBO.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductSpuPageDTO.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductSpuBO.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductSpuSearchListDTO.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductSkuBO.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductSkuDetailBO.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductSpuAddDTO.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductSkuAddOrUpdateDTO.java" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductSpuUpdateDTO.java" />
+        <option value="$PROJECT_DIR$/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/impl/ProductAttrServiceImpl.java" />
+        <option value="$PROJECT_DIR$/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/ProductAttrServiceImpl.java" />
+        <option value="$PROJECT_DIR$/common/common-framework/src/main/java/io/github/mizhicn/common/framework/dataobject/BaseDO.java" />
+        <option value="$PROJECT_DIR$/common/common-framework/src/main/java/io/github/mizhicn/common/framework/dataobject/DeletableDO.java" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/common/common-framework/pom.xml" />
+        <option value="$PROJECT_DIR$/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/impl/dao/ProductAttrMapper.java" />
+        <option value="$PROJECT_DIR$/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/impl/dataobject/ProductAttrDO.java" />
+        <option value="$PROJECT_DIR$/product/product-application/src/main/java/io/github/mizhicn/mallshop/pruduct/application/Application.java" />
+        <option value="$PROJECT_DIR$/README.MD" />
+        <option value="$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/ProductSpuService.java" />
+        <option value="$PROJECT_DIR$/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/dao/ProductAttrMapper.java" />
+        <option value="$PROJECT_DIR$/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/dataobject/ProductAttrDO.java" />
+        <option value="$PROJECT_DIR$/demo/demo-dobble-service/src/main/java/com/mizhi/demo/product/bo/product/DemoProdcut/service/ProductServiceImpl.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fc4783bf-662b-417a-a6ca-d527c39dc965/console.sql" />
+        <option value="$PROJECT_DIR$/product/product-service-impl/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/product/product-service-impl/src/main/resources/config/application.yml" />
+        <option value="$PROJECT_DIR$/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/service/ProductAttrServiceImpl.java" />
+        <option value="$PROJECT_DIR$/product/product-application/src/main/java/io/github/mizhicn/mallshop/pruduct/application/controller/user/TestController.java" />
+        <option value="$PROJECT_DIR$/demo/demo-dobble-application/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/demo/demo-dobble-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/product/product-application/src/main/java/io/github/mizhicn/mallshop/pruduct/application/ProductApplication.java" />
+        <option value="$PROJECT_DIR$/product/product-application/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/product/product-service-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/product/product-application/pom.xml" />
+        <option value="$PROJECT_DIR$/product/product-service-impl/src/main/resources/registy.conf" />
+        <option value="$PROJECT_DIR$/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/config/DataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="/opt/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="/opt/apache-maven-3.5.4/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common-framework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common-framework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mallshop" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mallshop" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mallshop" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="product" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="product-service-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="product-service-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="product-service-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="product-service-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="product-service-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1302" />
+    <option name="height" value="720" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="common-framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="common-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="common-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="common-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="common-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="common-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="dataobject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service-impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pruduct" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pruduct" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pruduct" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pruduct" type="462c0819:PsiDirectoryNode" />
+              <item name="dataobject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pruduct" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mallshop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mallshop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="product-application" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="product-service-api" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="mallshop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="product-service-impl" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowAnt Build.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/common/common-framework/src/main/java/io/github/mizhicn/common/framework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/product/product-service-impl/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.46849942" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.github.mizhicn.mallshop.pruduct.impl.dataobject" />
+      <recent name="io.github.mizhicn.mallshop.pruduct.impl.do" />
+      <recent name="io.github.mizhicn.mallshop.pruduct.api.dto" />
+      <recent name="io.github.mizhicn.mallshop.pruduct.api.bo" />
+      <recent name="com.github.mizhicn.mallshop.pruduct.api.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/product/product-service-impl/src/main/resources" />
+      <recent name="$PROJECT_DIR$/demo/demo-dobble-application/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/product/product-service-impl/src/main/resources/config" />
+      <recent name="$PROJECT_DIR$/product/product-application/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProductApplication">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo-dobble-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mizhi.demo.product.bo.product.DemoProdcut.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mizhi.demo.product.bo.product.DemoProdcut.app.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo-dobble-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mizhi.demo.product.bo.product.DemoProdcut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mizhi.demo.product.bo.product.DemoProdcut.ApplicationService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="product-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.mizhicn.mallshop.pruduct.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.mizhicn.mallshop.pruduct.application.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ProductApplication" />
+        <item itemvalue="Spring Boot.ApplicationService" />
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef275555-1547-48c0-9055-762c6f16a597" name="Default Changelist" comment="" />
+      <created>1585476845454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585476845454</updated>
+      <workItem from="1585476849695" duration="977000" />
+      <workItem from="1585660449025" duration="20657000" />
+      <workItem from="1586069779156" duration="10803000" />
+      <workItem from="1586171001799" duration="19700000" />
+      <workItem from="1586652580030" duration="19777000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="71914000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-1" width="1366" height="768" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579666" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
+      <window_info anchor="bottom" id="Database Console" order="2" weight="0.32879046" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.48803827" visible="true" weight="0.36377952" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32879046" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32913387" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32913387" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3055118" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.51062214" side_tool="true" weight="0.36220473" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.40944883" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32913387" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.48937786" weight="0.36220473" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.2511381" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.24506828" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="ZooKeeper" order="10" show_stripe_button="false" weight="0.2245827" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="ZooKeeperConfig">
+    <option name="host" value="localhost" />
+    <option name="port" value="2181" />
+    <option name="charset" value="UTF-8" />
+    <option name="whitePaths" value="" />
+    <option name="enabled" value="true" />
+    <option name="tooltip" value="true" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductSpuPageDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-552">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductSpuBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-484">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductSpuPageBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductSpuSearchListDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductSkuBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/bo/ProductSkuDetailBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2093">
+          <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductSpuAddDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductSkuAddOrUpdateDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductSpuUpdateDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common-framework/src/main/java/io/github/mizhicn/common/framework/dataobject/BaseDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.1.1/mybatis-plus-annotation-3.1.1.jar!/com/baomidou/mybatisplus/annotation/TableLogic.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common-framework/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common-framework/src/main/java/io/github/mizhicn/common/framework/dataobject/DeletableDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/io/seata/seata-all/0.6.1/seata-all-0.6.1.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/io/seata/seata-dubbo/0.5.1/seata-dubbo-0.5.1.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/ProductSpuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/io/seata/seata-spring/0.5.1/seata-spring-0.5.1.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.jar!/org/springframework/boot/context/properties/ConfigurationProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.1.1/mybatis-plus-annotation-3.1.1.jar!/com/baomidou/mybatisplus/annotation/EnumValue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/demo-dobble-api/src/main/java/com/mizhi/demo/api/product/api/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="32" selection-start-line="15" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fc4783bf-662b-417a-a6ca-d527c39dc965/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/dataobject/ProductAttrDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fc4783bf-662b-417a-a6ca-d527c39dc965/schema/shopmall/table/product_attr">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="34dcf324-66cf-48c6-87d0-d1043f0430d2">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/config/AbstractConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="462" selection-start-line="462" selection-end-line="462" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/config/annotation/Service.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/ProductAttrService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/demo-dobble-application/src/main/java/com/mizhi/demo/product/bo/product/DemoProdcut/app/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/demo-dobble-service/src/main/java/com/mizhi/demo/product/bo/product/DemoProdcut/service/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/demo-dobble-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="13" selection-start-line="13" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/demo-dobble-application/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="48" selection-start-line="16" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/demo-dobble-application/src/main/java/com/mizhi/demo/product/bo/product/DemoProdcut/app/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/demo-dobble-service/src/main/java/com/mizhi/demo/product/bo/product/DemoProdcut/ApplicationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-application/src/main/java/io/github/mizhicn/mallshop/pruduct/application/ProductApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/service/ProductAttrServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-impl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-impl/src/main/resources/file.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-impl/src/main/resources/registy.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/config/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/dao/ProductAttrMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-impl/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="914">
+          <caret line="50" column="44" selection-end-line="50" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-application/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-application/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-application/src/main/java/io/github/mizhicn/mallshop/pruduct/application/controller/user/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-service-api/src/main/java/io/github/mizhicn/mallshop/pruduct/api/dto/ProductAttrPageDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="172" column="68" selection-start-line="172" selection-start-column="68" selection-end-line="172" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>common-framework</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.46849942" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax.validation:validation-api:2.0.1.Final</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.46849942" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="install -U" />
+  </component>
+</project>
