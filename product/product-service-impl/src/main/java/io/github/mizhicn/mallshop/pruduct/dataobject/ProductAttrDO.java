@@ -2,7 +2,9 @@ package io.github.mizhicn.mallshop.pruduct.dataobject;
 
 import com.baomidou.mybatisplus.annotation.*;
 import io.github.mizhicn.common.framework.dataobject.DeletableDO;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
@@ -11,6 +13,8 @@ import lombok.experimental.Accessors;
 @Data
 @Accessors(chain = true)
 @TableName("product_attr")
+@AllArgsConstructor
+@NoArgsConstructor
 public class ProductAttrDO extends DeletableDO {
 
     /**

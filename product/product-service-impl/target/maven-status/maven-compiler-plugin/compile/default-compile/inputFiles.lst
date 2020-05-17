@@ -1,0 +1,6 @@
+/home/mizhi/javaproject/mallshop/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/dao/ProductAttrMapper.java
+/home/mizhi/javaproject/mallshop/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/convert/ProductAttrConvertService.java
+/home/mizhi/javaproject/mallshop/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/config/DataSourceConfig.java
+/home/mizhi/javaproject/mallshop/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/dataobject/ProductAttrDO.java
+/home/mizhi/javaproject/mallshop/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/App.java
+/home/mizhi/javaproject/mallshop/product/product-service-impl/src/main/java/io/github/mizhicn/mallshop/pruduct/service/ProductAttrServiceImpl.java

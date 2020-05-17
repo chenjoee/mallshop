@@ -1,30 +1,38 @@
 package io.github.mizhicn.mallshop.pruduct.service;
-import com.alibaba.dubbo.config.annotation.Service;
 import io.github.mizhicn.mallshop.pruduct.api.ProductAttrService;
-import io.github.mizhicn.mallshop.pruduct.api.bo.ProductAttrBO;
-import io.github.mizhicn.mallshop.pruduct.api.bo.ProductAttrPageBO;
-import io.github.mizhicn.mallshop.pruduct.api.bo.ProductAttrSimpleBO;
-import io.github.mizhicn.mallshop.pruduct.api.bo.ProductAttrValueBO;
+import io.github.mizhicn.mallshop.pruduct.api.bo.*;
 import io.github.mizhicn.mallshop.pruduct.api.dto.*;
+import io.github.mizhicn.mallshop.pruduct.convert.ProductAttrConvertService;
 import io.github.mizhicn.mallshop.pruduct.dao.ProductAttrMapper;
 import io.github.mizhicn.mallshop.pruduct.dataobject.ProductAttrDO;
+import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-@Service(validation = "true", version = "${dubbo.provider.ProductAttrService.version}")
+@Service(validation = "true" ,version = "${dubbo.provider.ProductAttrService.version}" )
 public class ProductAttrServiceImpl implements ProductAttrService {
 
 
     @Autowired
     ProductAttrMapper productAttrMapper;
 
+    /**
+     * 网络传输对象爱嗯DTO 过来后需要转换成DO
+     * @param productAttrPageDTO
+     * @return
+     */
     @Override
     public ProductAttrPageBO getProductAttrPage(ProductAttrPageDTO productAttrPageDTO) {
-        ProductAttrDO productAttrDO = productAttrMapper.selectById(1);
-        System.out.println(productAttrDO);
+        ProductAttrPageBO productAttrPageBO = new ProductAttrPageBO();
+        int offset = (productAttrPageDTO.getPageNum() - 1) * productAttrPageDTO.getPageSize();
+        List<ProductAttrDO> productAttrDOS = productAttrMapper.selectListByNameLike(productAttrPageDTO.getName(), offset, productAttrPageDTO.getPageSize());
+        List<ProductAttrDetailBO> productAttrDetailBOS = ProductAttrConvertService.INSTANCE.convert(productAttrDOS);
 
-        return null;
+        Integer count = productAttrMapper.selectCountByNameLike(productAttrPageDTO.getName());
+        productAttrPageBO.setAttrs(productAttrDetailBOS);
+        productAttrPageBO.setCount(count);
+        return productAttrPageBO;
     }
 
     @Override

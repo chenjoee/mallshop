@@ -19,16 +19,11 @@
 
         <dependency>
             <groupId>cn.mizhi</groupId>
-            <artifactId>product-service-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>cn.mizhi</groupId>
             <artifactId>product-service-impl</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
+
 
     </dependencies>
 
