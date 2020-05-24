@@ -1,4 +1,4 @@
-package io.github.mizhicn.mallshop.pruduct.convert;
+package io.github.mizhicn.mallshop.pruduct.convert.app;
 
 import io.github.mizhicn.mallshop.pruduct.api.bo.ProductAttrPageBO;
 import io.github.mizhicn.mallshop.pruduct.vo.user.UserProductAttrPageVO;
@@ -15,5 +15,7 @@ public interface ProductAttrConvertApp {
     //分页查询 结果BO -> VO
     @Mappings({})
     UserProductAttrPageVO convert(ProductAttrPageBO productAttrPageBO);
+
+
 
 }

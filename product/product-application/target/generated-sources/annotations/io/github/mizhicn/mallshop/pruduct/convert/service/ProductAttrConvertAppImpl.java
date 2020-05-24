@@ -1,4 +1,4 @@
-package io.github.mizhicn.mallshop.pruduct.convert;
+package io.github.mizhicn.mallshop.pruduct.convert.service;
 
 import io.github.mizhicn.mallshop.pruduct.api.bo.ProductAttrDetailBO;
 import io.github.mizhicn.mallshop.pruduct.api.bo.ProductAttrDetailValueBO;
@@ -11,7 +11,7 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2020-05-12T22:15:33+0800",
+    date = "2020-05-19T23:03:22+0800",
     comments = "version: 1.3.1.Final, compiler: javac, environment: Java 1.8.0_242 (Private Build)"
 )
 public class ProductAttrConvertAppImpl implements ProductAttrConvertApp {
