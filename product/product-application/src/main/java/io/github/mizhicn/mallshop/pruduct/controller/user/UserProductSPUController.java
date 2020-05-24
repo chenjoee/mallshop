@@ -2,7 +2,6 @@ package io.github.mizhicn.mallshop.pruduct.controller.user;
 
 import io.github.mizhicn.common.framework.vo.CommonResult;
 import io.github.mizhicn.mallshop.pruduct.api.ProductAttrService;
-//import io.swagger.annotations.Api;
 import io.github.mizhicn.mallshop.pruduct.api.dto.ProductSpuPageDTO;
 import io.github.mizhicn.mallshop.pruduct.vo.user.UserProductAttrPageVO;
 import io.swagger.annotations.Api;
@@ -12,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("user/spu")
+@RequestMapping("/user/spu")
 @Api("商品 SPU + SKU")
 public class UserProductSPUController {
 

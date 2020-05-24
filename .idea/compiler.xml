@@ -23,10 +23,13 @@
           <entry name="$MAVEN_REPOSITORY$/joda-time/joda-time/2.9/joda-time-2.9.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar" />
         </processorPath>
-        <module name="product-application" />
-        <module name="common-framework" />
-        <module name="product-service-impl" />
         <module name="product-service-api" />
+        <module name="order-api" />
+        <module name="product-service-impl" />
+        <module name="order-application" />
+        <module name="common-framework" />
+        <module name="order-service" />
+        <module name="product-application" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -44,6 +47,9 @@
       <module name="demo-dobble-api" options="-parameters" />
       <module name="demo-dobble-application" options="-parameters" />
       <module name="demo-dobble-service" options="-parameters" />
+      <module name="order-api" options="-parameters" />
+      <module name="order-application" options="-parameters" />
+      <module name="order-service" options="-parameters" />
       <module name="product-application" options="-parameters" />
       <module name="product-service-api" options="-parameters" />
       <module name="product-service-impl" options="-parameters" />

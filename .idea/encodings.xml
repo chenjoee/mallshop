@@ -8,6 +8,10 @@
     <file url="file://$PROJECT_DIR$/demo/demo-dobble-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo/demo-dobble-application" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo/demo-dobble-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order/order-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order/order-application" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order/order-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/product" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/product/product-application" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/product/product-service-api" charset="UTF-8" />

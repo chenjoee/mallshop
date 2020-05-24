@@ -1,4 +1,4 @@
-package io.github.mizhicn.mallshop.pruduct.convert;
+package io.github.mizhicn.mallshop.pruduct.convert.service;
 
 import io.github.mizhicn.mallshop.pruduct.api.bo.ProductAttrDetailBO;
 import io.github.mizhicn.mallshop.pruduct.dataobject.ProductAttrDO;

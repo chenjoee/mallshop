@@ -4,7 +4,7 @@ package io.github.mizhicn.mallshop.pruduct.controller.user;
 import io.github.mizhicn.mallshop.pruduct.api.ProductAttrService;
 import io.github.mizhicn.mallshop.pruduct.api.bo.ProductAttrPageBO;
 import io.github.mizhicn.mallshop.pruduct.api.dto.ProductAttrPageDTO;
-import io.github.mizhicn.mallshop.pruduct.convert.ProductAttrConvertApp;
+import io.github.mizhicn.mallshop.pruduct.convert.app.ProductAttrConvertApp;
 import io.github.mizhicn.mallshop.pruduct.vo.user.UserProductAttrPageVO;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.web.bind.annotation.GetMapping;

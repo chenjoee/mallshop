@@ -2,7 +2,7 @@ package io.github.mizhicn.mallshop.pruduct.service;
 import io.github.mizhicn.mallshop.pruduct.api.ProductAttrService;
 import io.github.mizhicn.mallshop.pruduct.api.bo.*;
 import io.github.mizhicn.mallshop.pruduct.api.dto.*;
-import io.github.mizhicn.mallshop.pruduct.convert.ProductAttrConvertService;
+import io.github.mizhicn.mallshop.pruduct.convert.service.ProductAttrConvertService;
 import io.github.mizhicn.mallshop.pruduct.dao.ProductAttrMapper;
 import io.github.mizhicn.mallshop.pruduct.dataobject.ProductAttrDO;
 import org.apache.dubbo.config.annotation.Service;
